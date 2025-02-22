@@ -33,8 +33,8 @@ const account = privateKeyToAccount(`0x${privateKey}` as Hex);
   });
 
   const tx = await contract.write.recordSubmission([
-    'markneri',
-    'kimerran',
+    'Gelows',
+    'https://github.com/Gelows',
     '0x3b26E8DA9aDedAAe86a260b6354aC1855AA65C14',
     '0x3b26E8DA9aDedAAe86a260b6354aC1855AA65C14'
     ]);    
